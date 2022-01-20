@@ -1,6 +1,6 @@
  #include "middle_list.h"
  void itc_odd_even_analysis_lst(const vector <int> &lst) {
-    setlocale(LC_ALL, "Rus");
+    setlocale(LC_ALL, "rus");
     vector <int> lst1, lst2;
     itc_odd_even_separator_lst(lst, lst1, lst2);
     cout << "Àíàëèç ñïèñêà:" << endl;
