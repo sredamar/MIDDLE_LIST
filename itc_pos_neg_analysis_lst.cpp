@@ -1,6 +1,6 @@
 #include "middle_list.h"
 void itc_pos_neg_analysis_lst(const vector <int> &lst) {
-    setlocale(LC_ALL, "Rus");
+    setlocale(LC_ALL, "rus");
     vector <int> lst1, lst2, lst3;
     itc_pos_neg_separator_lst(lst, lst1, lst2, lst3);
     cout << "Ïîëîæèòåëüíûå:" << '\t' << '\t' << "Îòðèöàòåëüíûå:" << endl;
