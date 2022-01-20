@@ -1,7 +1,5 @@
 #include "middle_list.h"
-vector <char> itc_strtlist(string str) {
-    if (itc_len(str) != 0) {
-    vector <char> mass;
-    for (long long i = 0; str[i] != '\0'; i++) mass.push_back(str[i]);
-    return mass;}
-}
+vector <char> itc_strtlist(string str){
+    vector <char> mass(itc_len(str));
+    for(int i = 0; i < itc_len(str); i++) mass[i] = str[i];
+return mass;}
