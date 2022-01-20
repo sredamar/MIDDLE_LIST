@@ -14,12 +14,9 @@ long itc_sum_even_lst(const vector <int> &lst); //6 finished
 long itc_sum_even_part_lst(const vector <int> &lst); //7 finished
 void itc_odd_even_separator_lst(const vector <int> &lst, vector <int> &lst1, vector <int> &lst2); //8 finished
 void itc_pos_neg_separator_lst(const vector <int> &lst, vector <int> &lst1, vector <int> &lst2, vector <int> &lst3); //9 finished
-void itc_odd_even_analysis_lst(const vector <int> &lst); //10 not finished
-void itc_pos_neg_analysis_lst(const vector <int> &lst); //11 not finished
+void itc_odd_even_analysis_lst(const vector <int> &lst); //10 finished
+void itc_pos_neg_analysis_lst(const vector <int> &lst); //11  finished
 long long itc_len(string str);
-long long itc_min(long long a, long long b);
-string itc_slice_str(string str, int st, int fin);
-int itc_find_str(string str1, string str2);
 int itc_max_lst(const vector <int> &lst);
 int itc_min_lst(const vector <int> &lst);
 #endif // MIDDLE_LIST_H_INCLUDED
