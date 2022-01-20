@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <locale.h>
 using namespace std;
 vector <char> itc_strtlist(string str); //1 finished
 string itc_join(vector <char> lst, string sep); //2 finished
